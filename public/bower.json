@@ -1,0 +1,11 @@
+{
+    "name": "rpg-app",
+    "private": true,
+    "dependencies": {
+        "angular": "1.*",
+        "angular-jwt": "*",
+        "angular-ui-router": "0.2.13",
+        "bootstrap": "3.1.1",
+        "jquery": "*"
+    }
+}
