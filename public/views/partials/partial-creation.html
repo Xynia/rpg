@@ -1,0 +1,80 @@
+<section class="container-fluid">
+	<h3>Points restants : {{points}}</h3>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4>Perso infos</h4>
+		</div>
+		<div class="panel-body">
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="Name">Nom:</label> <input type="text"
+						class="form-control" id="name" data-ng-model="perso.name">
+				</div>
+				<div class="form-group">
+					<label for="age">Age:</label> <input type="Number"
+						class="form-control" id="age" min="0" data-ng-model="perso.age">
+				</div>
+				<label class="radio-inline"><input type="radio" value="F"
+					data-ng-model="perso.gender">F</label> <label class="radio-inline"><input
+					type="radio" value="M" data-ng-model="perso.gender">M</label>
+			</form>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4>Personnalité</h4>
+		</div>
+		<div class="panel-body" style="font-size: 1.2em;">
+
+			<div class="row" data-ng-repeat="format in formatedTraits">
+				<div class="col-sm-3">
+					<label class="checkbox-inline"
+						data-ng-style="style(traits[format[0]].value)"> <input
+						type="checkbox" data-ng-model="traits[format[0]].checked"
+						data-ng-change="change(format[0])"
+						data-ng-disabled="traits[format[0]].disabled">
+						{{traits[format[0]].name}} ({{traits[format[0]].value}})
+					</label>
+				</div>
+				<div class="col-sm-3">
+					<label class="checkbox-inline" data-ng-if="format[1]"
+						data-ng-style="style(traits[format[1]].value)"> <input
+						type="checkbox" data-ng-model="traits[format[1]].checked"
+						data-ng-change="change(format[1])"
+						data-ng-disabled="traits[format[1]].disabled">
+						{{traits[format[1]].name}} ({{traits[format[1]].value}})
+					</label>
+				</div>
+				<div class="col-sm-3" data-ng-if="format[2]"
+					data-ng-style="style(traits[format[2]].value)">
+					<label class="checkbox-inline"> <input type="checkbox"
+						data-ng-model="traits[format[2]].checked"
+						data-ng-change="change(format[2])"
+						data-ng-disabled="traits[format[2]].disabled">
+						{{traits[format[2]].name}} ({{traits[format[2]].value}})
+					</label>
+				</div>
+				<div class="col-sm-3" data-ng-if="format[3]"
+					data-ng-style="style(traits[format[3]].value)">
+					<label class="checkbox-inline"> <input type="checkbox"
+						data-ng-model="traits[format[3]].checked"
+						data-ng-change="change(format[3])"
+						data-ng-disabled="traits[format[3]].disabled">
+						{{traits[format[3]].name}} ({{traits[format[3]].value}})
+					</label>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4>Apparence</h4>
+		</div>
+		<div class="panel-body" style="font-size: 1.2em;">
+		
+		</div>
+	</div>
+
+</section>

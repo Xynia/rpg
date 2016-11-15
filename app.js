@@ -1,12 +1,13 @@
 
 /**
- * Module dependencies.
+ * Dependencies.
  */
 
-var creation   = require('./routes/creation')
-  , user	   = require('./routes/user');
+var db 			= require('./database/mongoose.js');
 
-var auth       = require('./routes/AuthManager');
+var creation   = require('./routes/creation')
+  , user	   = require('./routes/user')
+  , auth       = require('./routes/AuthManager');
 
 
 var express    = require('express')
@@ -15,7 +16,7 @@ var express    = require('express')
   , favicon    = require('serve-favicon')
   , morgan     = require('morgan')
   , path 	   = require('path')
-  , methodOverride  = require('method-override');;
+  , methodOverride  = require('method-override');
 
 var app = express();
 
@@ -29,7 +30,7 @@ app.set('view engine', 'html');
 //main folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.use(favicon(__dirname + '/public/img/favicon.ico'));
+app.use(favicon(__dirname + '/public/img/favicon.ico'));
 
 
 app.use(morgan("dev"));
@@ -45,6 +46,9 @@ app.use(function(req, res, next) {
     next();
 });
 
+//----------------------------------------------------------------------------
+//------------------------------- Route --------------------------------------
+//----------------------------------------------------------------------------
 
 //partials
 app.get('views/partials/:view', function(req, res){
@@ -61,6 +65,7 @@ app.get("/mainView", function(req, res) {
 });
 
 app.post('/login', user.login);
+app.get('/traits', auth.ensureAuthorized, creation.traits);
 
 //app.post('/requestAccess', auth.ensureAuthorized, auth.requestAccess);
 

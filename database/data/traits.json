@@ -1,0 +1,319 @@
+[
+	{
+	"name": "Chaste",
+    "value": 0,
+    "opposing": ["Nymphomane"]
+    },{
+    "name": "Nymphomane",
+    "value": 2,
+    "opposing": ["Chaste"]
+    },{
+    "name": "Pudique",
+    "value": -1,
+    "opposing": ["Lascif"]
+    },{
+    "name": "Lascif",
+    "value": -1,
+    "opposing": ["Pudique"]
+    },{
+    "name": "Combatif",
+    "value": -2,
+    "opposing": ["Pacifique", "Apathique"]
+    },{
+    "name": "Pacifique",
+    "value": -2,
+    "opposing": ["Combatif"]
+    },{
+    "name": "Courageux",
+    "value": -5,
+    "opposing": ["Lâche"]
+    },{
+    "name": "Lâche",
+    "value": 5,
+    "opposing": ["Courageux"]
+    },{
+    "name": "Honnête",
+    "value": -3,
+    "opposing": ["Malhonnête"]
+    },{
+    "name": "Malhonnête",
+    "value": 3,
+    "opposing": ["Honnête"]
+    },{
+    "name": "Râleur",
+    "value": 3,
+    "opposing": ["Enthousiaste"]
+    },{
+    "name": "Enthousiaste",
+    "value": -3,
+    "opposing": ["Râleur"]
+    },{
+    "name": "Energique",
+    "value": -3,
+    "opposing": ["Apathique"]
+    },{
+    "name": "Apathique",
+    "value": 3,
+    "opposing": ["Energique", "Combatif"]
+    },{
+    "name": "Extraverti",
+    "value": 0,
+    "opposing": ["Introverti"]
+    },{
+    "name": "Bavard",
+    "value": 0,
+    "opposing": ["Silencieux","Discret"]
+    },{
+    "name": "Bruyant",
+    "value": 3,
+    "opposing": ["Silencieux","Discret"]
+    },{
+    "name": "Silencieux",
+    "value": 1,
+    "opposing": ["Bruyant","Bavard"]
+    },{
+    "name": "Discret",
+    "value": 1,
+    "opposing": ["Bruyant","Bavard"]
+    },{
+    "name": "Réservé",
+    "value": 0,
+    "opposing": ["Bruyant","Bavard"]
+    },{
+    "name": "Secret",
+    "value": -2,
+    "opposing": []
+    },{
+    "name": "Introverti",
+    "value": 0,
+    "opposing": ["Extraverti"]
+    },{
+    "name": "Exubérant",
+    "value": 1,
+    "opposing": ["Introverti"]
+    },{
+    "name": "Loyal",
+    "value": -3,
+    "opposing": ["Déloyal"]
+    },{
+    "name": "Déloyal",
+    "value": 3,
+    "opposing": ["Loyal"]
+    },{
+    "name": "Altruiste",
+    "value": -3,
+    "opposing": ["Egoïste"]
+    },{
+    "name": "Egoïste",
+    "value": 3,
+    "opposing": ["Altruiste"]
+    },{
+    "name": "Gentil",
+    "value": -3,
+    "opposing": ["Méchant","Cruel","Malfaisant"]
+    },{
+    "name": "Méchant",
+    "value": 3,
+    "opposing": ["Gentil"]
+    },{
+    "name": "Cruel",
+    "value": 5,
+    "opposing": ["Gentil"]
+    },{
+    "name": "Malfaisant",
+    "value": 6,
+    "opposing": ["Gentil"]
+    },{
+    "name": "Sympathique",
+    "value": -3,
+    "opposing": []
+    },{
+    "name": "Génie",
+    "value": -6,
+    "opposing": ["Idiot", "Déficient mental"]
+    },{
+    "name": "Intelligent",
+    "value": -3,
+    "opposing": ["Idiot", "Déficient mental"]
+    },{
+    "name": "Astucieux",
+    "value": -2,
+    "opposing": ["Idiot", "Déficient mental"]
+    },{
+    "name": "Idiot",
+    "value": 3,
+    "opposing": ["Génie", "Intelligent", "Astucieux"]
+    },{
+    "name": "Déficient mental",
+    "value": 6,
+    "opposing": ["Génie", "Intelligent", "Astucieux"]
+    },{
+    "name": "Modeste",
+    "value": -3,
+    "opposing": ["Prétentieux","Orgueilleux","Arrogant","Hautain"]
+    },{
+    "name": "Humble",
+    "value": -3,
+    "opposing": ["Prétentieux","Orgueilleux","Arrogant","Hautain"]
+    },{
+    "name": "Prétentieux",
+    "value": 4,
+    "opposing": ["Humble","Modeste"]
+    },{
+    "name": "Orgueilleux",
+    "value": 3,
+    "opposing": ["Humble","Modeste"]
+    },{
+    "name": "Arrogant",
+    "value": 3,
+    "opposing": ["Humble","Modeste"]
+    },{
+    "name": "Hautain",
+    "value": 3,
+    "opposing": ["Humble","Modeste"]
+    },{
+    "name": "Poli",
+    "value": -3,
+    "opposing": ["Grossier", "Rustre", "Désagréable", "Sarcastique"]
+    },{
+    "name": "Aimable",
+    "value": -3,
+    "opposing": ["Grossier", "Rustre", "Désagréable", "Sarcastique"]
+    },{
+    "name": "Respectueux",
+    "value": -3,
+    "opposing": ["Grossier", "Rustre", "Désagréable", "Sarcastique"]
+    },{
+    "name": "Galant",
+    "value": -3,
+    "opposing": []
+    },{
+    "name": "Sarcastique",
+    "value": 2,
+    "opposing": ["Poli", "Aimable", "Respectueux"]
+    },{
+    "name": "Grossier",
+    "value": 4,
+    "opposing": ["Poli", "Aimable", "Respectueux"]
+    },{
+    "name": "Désagréable",
+    "value": 3,
+    "opposing": ["Poli", "Aimable", "Respectueux"]
+    },{
+    "name": "Rustre",
+    "value": 3,
+    "opposing": ["Poli", "Aimable", "Respectueux"]
+    },{
+    "name": "Prudent",
+    "value": -2,
+    "opposing": ["Téméraire", "Négligeant", "Insouciant"]
+    },{
+    "name": "Téméraire",
+    "value": -2,
+    "opposing": ["Prudent"]
+    },{
+    "name": "Négligeant",
+    "value": 3,
+    "opposing": ["Prudent", "Soigneux"]
+    },{
+    "name": "Soigneux",
+    "value": -2,
+    "opposing": ["Négligeant"]
+    },{
+    "name": "Paranoïaque",
+    "value": 5,
+    "opposing": []
+    },{
+    "name": "Persévérant",
+    "value": -3,
+    "opposing": ["Versatile","Inconstant"]
+    },{
+    "name": "Endurant",
+    "value": -3,
+    "opposing": []
+    },{
+    "name": "Patient",
+    "value": -2,
+    "opposing": ["Impatient", "Inconstant"]
+    },{
+    "name": "Impatient",
+    "value": 2,
+    "opposing": ["Patient"]
+    },{
+    "name": "Versatile",
+    "value": 3,
+    "opposing": ["Persévérant"]
+    },{
+    "name": "Inconstant",
+    "value": 4,
+    "opposing": ["Persévérant"]
+    },{
+    "name": "Sérieux",
+    "value": -2,
+    "opposing": ["Désinvolte", "Impulsif", "Ecervelé", "Insouciant"]
+    },{
+    "name": "Sage",
+    "value": -5,
+    "opposing": ["Désinvolte", "Impulsif", "Ecervelé"]
+    },{
+    "name": "Désinvolte",
+    "value": 2,
+    "opposing": ["Sérieux", "Sage"]
+    },{
+    "name": "Impulsif",
+    "value": 3,
+    "opposing": ["Sérieux", "Sage"]
+    },{
+    "name": "Ecervelé",
+    "value": 6,
+    "opposing": ["Sérieux", "Sage"]
+    },{
+    "name": "Espiègle",
+    "value": -3,
+    "opposing": ["Sérieux", "Sage"]
+    },{
+    "name": "Tolérant",
+    "value": -3,
+    "opposing": ["Intolérant"]
+    },{
+    "name": "Intolérant",
+    "value": 3,
+    "opposing": ["Tolérant"]
+    },{
+    "name": "Sévère",
+    "value": 3,
+    "opposing": ["Indulgeant", "Insouciant"]
+    },{
+    "name": "Impitoyable",
+    "value": 3,
+    "opposing": ["Indulgeant", "Clément"]
+    },{
+    "name": "Indulgeant",
+    "value": -1,
+    "opposing": ["Sévère", "Impitoyable"]
+    },{
+    "name": "Clément",
+    "value": -2,
+    "opposing": ["Impitoyable"]
+    },{
+    "name": "Optimiste",
+    "value": -3,
+    "opposing": ["Pessimiste", "Défaitiste", "Fataliste"]
+    },{
+    "name": "Insouciant",
+    "value": 2,
+    "opposing": ["Pessimiste", "Défaitiste", "Fataliste", "Sérieux","Sévère", "Prudent"]
+    },{
+    "name": "Pessimiste",
+    "value": 3,
+    "opposing": ["Optimiste", "Insouciant"]
+    },{
+    "name": "Défaitiste",
+    "value": 3,
+    "opposing": ["Optimiste", "Insouciant"]
+    },{
+    "name": "Fataliste",
+    "value": 3,
+    "opposing": ["Optimiste", "Insouciant"]
+    }
+]

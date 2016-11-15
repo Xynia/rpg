@@ -1,0 +1,98 @@
+[
+	{
+		"type": "Cheveux",
+		"subType": "Couleur",
+		"category": "Foncé",
+		"names": ["Bruns","Châtains","Noirs","Auburn"],
+		"values": [0,0,0,-3]
+	},{
+		"type": "Cheveux",
+		"subType": "Couleur",
+		"category": "Clairs",
+		"names": ["Blonds", "Paille", "Blond vénitien", "Blond platine", "Blond cendré", "Blond foncé","Roux"],
+		"value": [-3,-2,-4,-4,-3,-2,-3],
+		"combinaisons":[{
+			"type": "Peau",
+			"subType": "Couleur",
+			"names": ["Bronzée","Café au lait","Brune","Noire"],
+			"values": [-1,-2,-3,-4]
+		},{
+			"type": "Race",
+			"names": ["Asiatique", "Africaine", "Indien"],
+			"values": [-3,-3,-3]
+		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Couleur",
+		"category": "Surnaturelle",
+		"names": ["Bleus","Rouges","Verts","Rose","Mauve","Argenté"],
+		"values": [-8,-8,-8,-8,-8,-8]
+	},{
+		"type": "Cheveux",
+		"subType": "Couleur",
+		"category": "Teinds",
+		"names": ["Bleus","Rouges","Verts","Rose","Mauve","Argenté"],
+		"values": [-2,-2,-2,-2,-2,-2]
+	},{
+		"type": "Cheveux",
+		"subType": "Couleur",
+		"category": "Agés",
+		"names": ["Gris","Blancs"],
+		"values": [0,0],
+		"combinaisons":[{
+			"type": "Age",
+			"subType": "Jeune",
+			"names": ["20 ans","30 ans","50 ans"],
+			"values": [-4,-3, 1]
+		},{
+			"type": "Autre",
+			"names": ["Albinos"],
+			"values": [3]
+		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Longueur",
+		"names": ["Rasé"],
+		"values": [1],
+		"combinaisons":[{
+			"type": "Gender",
+			"names": ["F"],
+			"values": [6]
+		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Longueur",
+		"names": ["Courts"],
+		"values": [0]
+	},{
+		"type": "Cheveux",
+		"subType": "Longueur",
+		"names": ["Mi-longs"],
+		"values": [0],
+		"combinaisons":[{
+			"type": "Gender",
+			"names": ["M"],
+			"values": [-1]
+		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Longueur",
+		"names": ["Longs"],
+		"values": [-2],
+		"combinaisons":[{
+			"type": "Gender",
+			"names": ["M"],
+			"values": [-3]
+		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Longueur",
+		"names": ["Très longs"],
+		"values": [-2],
+		"combinaisons":[{
+			"type": "Gender",
+			"names": ["M"],
+			"values": [-4]
+		}]
+	}
+]

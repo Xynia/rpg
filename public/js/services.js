@@ -11,6 +11,11 @@ app.service('service', ['$log', '$http', function($log, $http) {
     		$http.post(url + '/login', data).then(function(res){
     			next(res.data.success, res.data.token);
     		});
-    	}
+    	},
+	    traits: function(next) {
+	        $http.get(url + '/traits').then(function(res){
+    			next(res.data.success, res.data.traits);
+    		});
+	    }
     }
 }]);

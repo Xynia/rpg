@@ -50,8 +50,8 @@ app.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
         return {
             'request': function (config) {
                 config.headers = config.headers || {};
-                if ($window.localStorage.serverToken) {
-                	config.headers['x-access-token'] = $window.localStorage.serverToken;
+                if ($window.localStorage.rpgToken) {
+                	config.headers['x-access-token'] = $window.localStorage.rpgToken;
                 }
                 return config;
             },
