@@ -14,12 +14,13 @@
 		"combinaisons":[{
 			"type": "Peau",
 			"subType": "Couleur",
+			"category": "Foncée",
 			"names": ["Bronzée","Café au lait","Brune","Noire"],
 			"values": [-1,-2,-3,-4]
 		},{
 			"type": "Race",
-			"names": ["Asiatique", "Africaine", "Indien"],
-			"values": [-3,-3,-3]
+			"names": ["Asiatique", "Africaine", "Indien", "Hindou"],
+			"values": [-3,-3,-3,-3]
 		}]
 	},{
 		"type": "Cheveux",
@@ -31,8 +32,8 @@
 		"type": "Cheveux",
 		"subType": "Couleur",
 		"category": "Teinds",
-		"names": ["Bleus","Rouges","Verts","Rose","Mauve","Argenté"],
-		"values": [-2,-2,-2,-2,-2,-2]
+		"names": ["Blonds", "Noirs", "Bruns","Roux","Bleus","Rouges","Verts","Rose","Mauve","Argenté"],
+		"values": [2,2,2,2,1,1,1,1,1,1]
 	},{
 		"type": "Cheveux",
 		"subType": "Couleur",
@@ -94,5 +95,178 @@
 			"names": ["M"],
 			"values": [-4]
 		}]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Lisses"],
+		"values": [0],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Raides"],
+		"values": [1],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Ondulés"],
+		"values": [0],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Bouclés"],
+		"values": [0],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Frisés"],
+		"values": [0],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Crépus"],
+		"values": [0],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Epais"],
+		"values": [-1],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Fins"],
+		"values": [-1],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Cassants"],
+		"values": [3],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Doux"],
+		"values": [-3],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Rêches"],
+		"values": [3],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Ternes"],
+		"values": [3],
+		"combinaisons":[]
+	},{
+		"type": "Cheveux",
+		"subType": "Texture",
+		"names": ["Brillants"],
+		"values": [-3],
+		"combinaisons":[]
+	},{
+		"type": "Peau",
+		"subType": "Couleur",
+		"category":"Claire",
+		"names": ["Livide", "Blanche","Pâle","Rosée","Claire"],
+		"values": [2,0,0,0,0],
+		"combinaisons":[]
+	},{
+		"type": "Peau",
+		"subType": "Couleur",
+		"category":"Foncée",
+		"names": ["Bronzée", "Mat", "Café au lait","Brune","Noire"],
+		"values": [0,0,0,0,0],
+		"combinaisons":[{
+			"type": "Yeux",
+			"subType": "Couleur",
+			"category": "Clairs",
+			"values": [0,-1,-2,-3,-4]
+		},{
+			"type": "Yeux",
+			"subType": "Couleur",
+			"category": "Vairons",
+			"names":["clair/clair","clair/foncé","clair/surnaturel"],
+			"values": [-3,-2,-2]
+		}]
+	},{
+		"type": "Yeux",
+		"subType": "Couleur",
+		"category": "Clairs",
+		"names": ["Gris pâle", "Bleus pâle", "Gris"
+		, "Bleu vif", "Bleus", "Vert pâle"
+		, "Verts", "Pers","Roses"],
+		"values": [-2,-2,0,-2,-2,-2,-2,0,-6],
+		"combinaisons":[]
+	},{
+		"type": "Yeux",
+		"subType": "Couleur",
+		"category": "Foncées",
+		"names": ["Noirs","Gris foncé","Bleu foncé", "Vert foncé","Marron","Noisette","Rouges"],
+		"values": [0,-1,-3,-3,0,0,-5],
+		"combinaisons":[]
+	},{
+		"type": "Yeux",
+		"subType": "Couleur",
+		"category": "Surnaturelles",
+		"names": ["Mauves","Dorés","Oranges", "Jaunes"],
+		"values": [-6,-6,-4,-4],
+		"combinaisons":[]
+	},{
+		"type": "Yeux",
+		"subType": "Couleur",
+		"category": "Vairons",
+		"names": ["Foncé/Foncé", "Clair/Clair","Clair/Foncé","Clair/Surnaturel","Foncé/Surnaturel"],
+		"values": [-2,-3,-4,-8,-8],
+		"combinaisons":[]
+	},{
+		"type": "Yeux",
+		"subType": "Forme",
+		"names": ["Inclinés vers le bas","Inclinés vers le haut"
+		, "Ecartés","Rapprochés", "Globuleux", "Louchant", "Myope","Borgne", "Aveugle"
+		, "Renfoncés", "Petits", "Grands", "Longs cils"],
+		"values": [0,0,3,3,4,5,3,6,7,3,3,-3,-3],
+		"combinaisons":[]
+	},{
+		"type": "Taille",
+		"names": ["1m20","1m30","1m40","1m50","1m60","1m70","1m80","1m90","2m","2m10","2m20","2m30"],
+		"values": [4,3,2,1,0,0,-1,-2,-3,-4,2,3],
+		"combinaisons":[{
+			"type":"Gender",
+			"category": "F",
+			"names":"Femme adulte",
+			"values":[0,0,0,0,0,0,2,4,6,8,8,8]
+		},{
+			"type":"Gender",
+			"category": "M",
+			"names":"Homme adulte",
+			"values":[7,6,5,4,2,0,0,0,0,0,0,0]
+		},{
+			"type":"Gender",
+			"category": "F",
+			"names":"Fille enfant",
+			"values":[-4,-3,-2,-1,0,0,2,3,4,5,6,7]
+		},{
+			"type":"Gender",
+			"category": "M",
+			"names":"Homme enfant",
+			"values":[-4,-3,-2,-1,0,0,1,2,3,4,5,6]
+		}]
+	},{
+		"type": "Yeux",
+		"subType": "Corpulence",
+		"names": ["Famélique", "Chétif","Maigre","Osseux","Angulaire","Mou","Mince","Elancé"
+		,"Musclé","Très musclé","Armoire à glace","Rond","Enveloppé","Surpoids","Obèse"],
+		"values": [-2,-3,-4,-8,-8],
+		"combinaisons":[]
 	}
 ]
