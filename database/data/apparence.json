@@ -199,6 +199,23 @@
 			"values": [-3,-2,-2]
 		}]
 	},{
+		"type": "Peau",
+		"subType": "Texture",
+		"names": ["Rides", "Cernes", "Grasse","Sèche","Flasque","Ferme","Acné"
+		,"Points noirs", "Vergetures","Cicatrices","Taches de vins"
+		,"Taches de vieillesse", "Taches blanches"
+		,"Taches de rousseur", "Grain de beauté", "Douce", "Verrue"],
+		"values": [3,1,5,1,5,-4,5,4,3,2,5,6,3,0,0,-4,6],
+		"combinaisons":[{
+			"type": "Age",
+			"subType": "Jeune",
+			"values": [3,0,0,0,3,0,0,0,3,0,0,6,0,0,0,0,0]
+		},{
+			"type": "Age",
+			"subType": "Vielle",
+			"values": [0,0,0,0,-3,0,0,0,3,0,0,0,0,0,0,-1,0]
+		}]
+	},{
 		"type": "Yeux",
 		"subType": "Couleur",
 		"category": "Clairs",
@@ -266,7 +283,22 @@
 		"subType": "Corpulence",
 		"names": ["Famélique", "Chétif","Maigre","Osseux","Angulaire","Mou","Mince","Elancé"
 		,"Musclé","Très musclé","Armoire à glace","Rond","Enveloppé","Surpoids","Obèse"],
-		"values": [-2,-3,-4,-8,-8],
-		"combinaisons":[]
+		"values": [8,6,4,2,1,2,-2,-3,-3,-4,-6,2,3,4,8],
+		"combinaisons":[{
+			"type":"Gender",
+			"category": "F",
+			"values":[0,0,0,0,0,0,0,0,3,6,10,0,0,0,0]
+		}]
+	},{
+		"type": "Dents",
+		"names": ["Blanches","Un peu jaunes","Jaunes","Carriées", "Dents manquantes"
+		,"De travers", "Bien alignées","Trop grandes", "Appareil dentaire", "Ecartées"
+		,"Dentier"],
+		"values": [-3,1,4,5,5,3,-3,2,1,1,5],
+		"combinaisons":[{
+			"type": "Age",
+			"subType": "Jeune",
+			"values": [0,0,0,0,0,0,0,0,0,0,0,3]
+		}]
 	}
 ]
