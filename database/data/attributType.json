@@ -1,0 +1,169 @@
+[
+ 	{
+ 		"name": "Cheveux",
+ 		"subTypes": [{
+ 			"name" : "Couleur", 
+ 			"categories" : ["Foncés","Clairs","Teinds","Âgés","Surnaturels"]
+ 			},{
+ 			"name" : "Longueur", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Coiffure", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Texture", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Peau",
+ 		"subTypes": [{
+ 			"name" : "Couleur", 
+ 			"categories" : ["Foncée","Claire","Surnaturelle"]
+ 			},{
+ 			"name" : "Texture", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Tatouages", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Visage",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Maquillage", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Yeux",
+ 		"subTypes": [{
+ 			"name" : "Couleur", 
+ 			"categories" : ["Foncés","Clairs","Vairons","Surnaturels"]
+ 			},{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Nez",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Sourcils",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Lèvres",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Dents",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Oreilles",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Taille",
+ 		"subTypes": [{
+ 			"name" : "Petit", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Moyen", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Grand", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Mains",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Pieds",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Jambes",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Bras",
+ 		"subTypes": [{
+ 			"name" : "Forme", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Particularités", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Corps",
+ 		"subTypes": [{
+ 			"name" : "Fille", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Mec", 
+ 			"categories" : []
+ 			},{
+ 			"name" : "Enfant", 
+ 			"categories" : []
+ 			}]
+ 	},{
+ 		"name": "Piercings",
+ 		"subTypes": [""]
+ 	},{
+ 		"name": "Vêtements",
+ 		"subTypes": [""]
+ 	}
+ 	
+]

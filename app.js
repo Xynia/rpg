@@ -66,6 +66,7 @@ app.get("/mainView", function(req, res) {
 
 app.post('/login', user.login);
 app.get('/traits', auth.ensureAuthorized, creation.traits);
+app.get('/attributs', auth.ensureAuthorized, creation.attributs);
 
 //app.post('/requestAccess', auth.ensureAuthorized, auth.requestAccess);
 

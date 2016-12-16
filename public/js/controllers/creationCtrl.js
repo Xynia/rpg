@@ -19,25 +19,39 @@ app.controller('creationCtrl', function ($scope, $log, $state, $window, service)
     $scope.opposing = [];
     
     service.traits(function(success, data){
-    	$scope.traits = data;
-    	var len = data.length;
-    	var k = -1;
-    	for(var i = 0; i < len; ++i){
+    	if(success){
+	    	$scope.traits = data;
+	    	var len = data.length;
+	    	var k = -1;
+	    	for(var i = 0; i < len; ++i){
+	
+	    		$scope.traits[i].id = i;
+	    		$scope.traits[i].checked = false;
+	    		$scope.traits[i].disabled = false;
+	    		
+	    		if((i % 4) == 0){
+	    			
+	    			$scope.formatedTraits.push([i]);
+	    			k++;
+	    		}else{
+	    			$scope.formatedTraits[k].push(i);
+	    		}
+	    	}  
+    	}
+    });
 
-    		$scope.traits[i].id = i;
-    		$scope.traits[i].checked = false;
-    		$scope.traits[i].disabled = false;
-    		
-    		if((i % 4) == 0){
-    			
-    			$scope.formatedTraits.push([i]);
-    			k++;
-    		}else{
-    			$scope.formatedTraits[k].push(i);
-    		}
-    		
+	service.attributTypes(function(success,data)){
+		if(success){
+			$scope.attributTypes = data;
+		}    	
+	});
+
+    service.attributs(function(success,data)){
+    	if(success){
+    		$scope.attributs = data;
     	}    	
     });
+
     
     $scope.change = function(id) {
     	var len = $scope.traits.length;
